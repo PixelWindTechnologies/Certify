@@ -41,16 +41,12 @@ export default function LoginPage() {
           <div className="relative h-10 w-10 overflow-hidden rounded-full border border-gold/40 bg-white p-1">
             <img
               src="/logo.ico"
-              alt="Pixel Wind logo"
-              className="h-full w-full object-cover"
-            />
-          </div>
-          <div>
-            <p className="font-display text-base">Pixel Wind Technologies</p>
-            <p className="text-xs uppercase tracking-wide text-slate-light">
-              Certification Portal
-            </p>
-          </div>
+                alt="Pixelwind logo"
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <div>
+              <p className="font-display text-base">Pixelwind Technologies</p>
         </div>
 
         <div className="relative max-w-md">
@@ -64,7 +60,7 @@ export default function LoginPage() {
         </div>
 
         <p className="relative text-xs text-slate-light">
-          © {new Date().getFullYear()} Pixel Wind Technologies. All rights reserved.
+          © {new Date().getFullYear()} Pixelwind Technologies. All rights reserved.
         </p>
       </div>
 
@@ -75,11 +71,11 @@ export default function LoginPage() {
             <div className="relative h-9 w-9 overflow-hidden rounded-full border border-gold/40 bg-white p-1">
               <img
                 src="../../../logo.ico"
-                alt="Pixel Wind logo"
+                alt="Pixelwind logo"
                 className="h-full w-full object-cover"
               />
             </div>
-            <p className="font-display text-base text-ink">Pixel Wind</p>
+            <p className="font-display text-base text-ink">Pixelwind</p>
           </div>
 
           <h2 className="font-display text-2xl text-ink">Sign in</h2>

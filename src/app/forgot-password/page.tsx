@@ -11,7 +11,7 @@ export default function ForgotPasswordPage() {
           Forgot password is not available. Please contact your administrator to reset your password.
         </p>
         <p className="mt-2 text-sm text-slate-light">
-          If you forgot your credentials, please contact the Pixel Wind super admin for help.
+          If you forgot your credentials, please contact the Pixelwind super admin for help.
         </p>
         <Link href="/login" className="mt-6 inline-block text-sm text-slate hover:text-ink">
           ← Back to sign in

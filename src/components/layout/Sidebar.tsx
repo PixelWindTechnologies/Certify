@@ -34,12 +34,12 @@ export function Sidebar({
       <div className="flex items-center gap-2.5 px-6 py-6">
         <img
           src="/logo.ico"
-          alt="Pixel Wind logo"
+          alt="Pixelwind logo"
           className="h-9 w-9 rounded-full border border-gold/40 bg-white p-1 object-cover"
         />
         <div>
           <p className="font-display text-sm leading-tight text-paper">
-            Pixel Wind
+            Pixelwind
           </p>
           <p className="text-[11px] uppercase tracking-wide text-slate-light">
             {brandSub}

@@ -37,14 +37,11 @@ export default function VerifyPage() {
         <div className="mb-6 flex items-center justify-center gap-2.5 text-paper">
           <img
             src="/logo.ico"
-            alt="Pixel Wind logo"
-            className="h-9 w-9 rounded-full border border-gold/40 bg-white p-1"
-          />
-          <div>
-            <p className="font-display text-sm">Pixel Wind Technologies</p>
-            <p className="text-[11px] uppercase tracking-wide text-slate-light">
-              Certificate Verification
-            </p>
+              alt="Pixelwind logo"
+              className="h-9 w-9 rounded-full border border-gold/40 bg-white p-1"
+            />
+            <div>
+              <p className="font-display text-sm">Pixelwind Technologies</p>
           </div>
         </div>
 
@@ -63,7 +60,7 @@ export default function VerifyPage() {
             <p className="font-display text-lg text-ink">Certificate not found</p>
             <p className="mt-1.5 text-sm text-slate-light">
               We couldn&apos;t find a certificate matching this ID. Please check the certificate
-              ID and try again, or contact Pixel Wind Technologies if you believe this is an
+              ID and try again, or contact Pixelwind Technologies if you believe this is an
               error.
             </p>
           </div>
@@ -78,7 +75,7 @@ export default function VerifyPage() {
             <p className="font-display text-lg text-ink">Unable to verify this certificate</p>
             <p className="mt-1.5 text-sm text-slate-light">
               There was a problem checking this certificate. Please try again later or contact
-              Pixel Wind Technologies if the problem persists.
+              Pixelwind Technologies if the problem persists.
             </p>
           </div>
         ) : (
@@ -117,7 +114,7 @@ export default function VerifyPage() {
 
             <div className="border-t border-line bg-paper px-8 py-4 text-center">
               <p className="text-xs text-slate-light">
-                This page confirms the authenticity of a certificate issued by Pixel Wind
+                This page confirms the authenticity of a certificate issued by Pixelwind
                 Technologies. Verified by certificate ID — never by student ID.
               </p>
             </div>

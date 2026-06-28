@@ -46,7 +46,7 @@ export function Topbar({
         ) : (
           <img
             src="/logo.ico"
-            alt="Pixel Wind logo"
+            alt="Pixelwind logo"
             className="h-8 w-8 rounded-full border border-line bg-white p-1"
           />
         )}

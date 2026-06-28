@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Pixel Wind Certification Portal",
+  title: "Pixelwind Certification Portal",
   description: "Internship certificate issuance and verification platform",
   icons: {
     icon: "/favicon.ico",

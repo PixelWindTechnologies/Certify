@@ -20,7 +20,7 @@ export default function RootPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-paper">
-      <Image src="/logo.ico" alt="Pixel Wind logo" width={72} height={72} className="rounded-lg" />
+      <Image src="/logo.ico" alt="Pixelwind logo" width={72} height={72} className="rounded-lg" />
       <div className="h-8 w-8 animate-spin rounded-full border-2 border-ink/20 border-t-ink" />
     </div>
   );
