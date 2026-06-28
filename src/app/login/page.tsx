@@ -41,12 +41,16 @@ export default function LoginPage() {
           <div className="relative h-10 w-10 overflow-hidden rounded-full border border-gold/40 bg-white p-1">
             <img
               src="/logo.ico"
-                alt="Pixelwind logo"
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div>
-              <p className="font-display text-base">Pixelwind Technologies</p>
+              alt="Pixelwind logo"
+              className="h-full w-full object-cover"
+            />
+          </div>
+          <div>
+            <p className="font-display text-base">Pixelwind Technologies</p>
+            <p className="text-xs uppercase tracking-wide text-slate-light">
+              Certification Portal
+            </p>
+          </div>
         </div>
 
         <div className="relative max-w-md">
